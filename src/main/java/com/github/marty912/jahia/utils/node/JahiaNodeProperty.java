@@ -1,13 +1,12 @@
-package be.marty912.jahia.utils.node;
+package com.github.marty912.jahia.utils.node;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.FIELD)
+@Target({ElementType.FIELD, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface JahiaNode {
-    String systemName();
-    String nodeType();
+public @interface JahiaNodeProperty {
+    String value();
 }

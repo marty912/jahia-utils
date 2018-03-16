@@ -1,4 +1,4 @@
-package be.marty912.jahia.utils.tools;
+package com.github.marty912.jahia.utils.tools;
 
 import org.jahia.services.content.JCRContentUtils;
 import org.jahia.services.content.JCRNodeWrapper;

@@ -1,6 +1,7 @@
-package be.marty912.jahia.utils.actions;
+package com.github.marty912.jahia.utils.actions;
 
 import org.apache.commons.lang.StringUtils;
+import org.jahia.exceptions.JahiaBadRequestException;
 import org.jahia.services.content.JCRNodeWrapper;
 import org.jahia.services.render.Resource;
 import org.jahia.utils.Patterns;
@@ -19,7 +20,7 @@ class RestrictedActionUtils {
                     return;
                 }
             }
-            throw new IllegalArgumentException("The resource's nodeType is not supported");
+            throw new JahiaBadRequestException("The resource's nodeType is not supported");
         }
     }
 }

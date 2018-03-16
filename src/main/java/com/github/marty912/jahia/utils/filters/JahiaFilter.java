@@ -1,4 +1,4 @@
-package be.marty912.jahia.utils.filters;
+package com.github.marty912.jahia.utils.filters;
 
 import org.springframework.stereotype.Component;
 

@@ -1,9 +1,9 @@
-package be.marty912.jahia.utils;
+package com.github.marty912.jahia.utils;
 
-import be.marty912.jahia.utils.actions.JahiaAction;
-import be.marty912.jahia.utils.actions.RestrictedActionInterface;
-import be.marty912.jahia.utils.actions.RestrictedJahiaAction;
-import be.marty912.jahia.utils.filters.JahiaFilter;
+import com.github.marty912.jahia.utils.actions.JahiaAction;
+import com.github.marty912.jahia.utils.actions.RestrictedActionInterface;
+import com.github.marty912.jahia.utils.actions.RestrictedJahiaAction;
+import com.github.marty912.jahia.utils.filters.JahiaFilter;
 import org.apache.commons.lang.StringUtils;
 import org.jahia.bin.Action;
 import org.jahia.services.render.filter.AbstractFilter;

@@ -1,4 +1,4 @@
-package be.marty912.jahia.utils.node;
+package com.github.marty912.jahia.utils.node;
 
 import javax.jcr.Value;
 import java.util.Locale;

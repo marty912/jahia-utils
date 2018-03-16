@@ -1,4 +1,4 @@
-package be.marty912.jahia.utils.actions;
+package com.github.marty912.jahia.utils.actions;
 
 import org.jahia.bin.Action;
 import org.springframework.stereotype.Component;
