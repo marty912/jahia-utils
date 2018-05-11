@@ -26,7 +26,7 @@
 
     <groupId>com.github.marty912.jahia.tools</groupId>
     <artifactId>jahia-utils</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
 
     <name>Jahia Utils Bundle</name>
     <description>Jahia Utils bundle</description>
