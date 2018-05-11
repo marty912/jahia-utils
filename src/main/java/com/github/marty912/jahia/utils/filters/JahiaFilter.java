@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface JahiaFilter {
     boolean disabled() default false;
-    int priority() default 0;
+    float priority() default 99.0F;
     String description() default "";
     String applyOnNodeTypes() default "";
     String applyOnModes() default "";
